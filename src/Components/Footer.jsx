@@ -22,10 +22,16 @@ export default function Footer() {
               Education
             </Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link  as={Link} to="stacks" smooth={true} duration={500} spy={true} offset={-70} activeClass="active" className="text-light px-2">
+              Tech Stack
+            </Nav.Link>
+          </Nav.Item>
           
           <Nav.Item>
-            <Nav.Link  as={Link} to="skill" smooth={true} duration={500} spy={true} offset={-70} activeClass="active" className="text-light px-2">
-              Skills
+            <Nav.Link  as={Link} to="projects" smooth={true} duration={500} spy={true} offset={-70} activeClass="active" className="text-light px-2">
+              Projects
             </Nav.Link>
           </Nav.Item>
         </Nav>
