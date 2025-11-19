@@ -1,0 +1,21 @@
+#root {
+  max-width: 100%;
+  ;
+
+}
+.navbar-nav .nav-link {
+  color: #000; /* default black text */
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0d6efd; /* Bootstrap primary blue */
+  border-bottom: 2px solid #0d6efd;
+  font-weight: 600;
+}
+.tech-circle:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
