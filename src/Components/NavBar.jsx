@@ -47,7 +47,8 @@ const NavBar = () => {
                   {[
                     { to: "about", label: "About" },
                     { to: "education", label: "Education" },
-                    { to: "skill", label: "Skills" },
+                    { to: "projects", label: "Projects" },
+                    { to: "stacks", label: "Tech Stack" },
                   ].map((item, idx) => (
                     <Nav.Link
                       key={idx}

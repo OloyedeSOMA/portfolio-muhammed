@@ -17,7 +17,7 @@ const techStacks = [
 
 const TechStackSection = () => {
   return (
-    <Element name="skills" className="my-5 text-center">
+    <Element name="stacks" id="stacks" className="my-5 text-center">
       <h3 className="fw-bold mb-4">Tech Stack</h3>
       <div className="d-flex flex-wrap justify-content-center gap-4">
         {techStacks.map((tech, index) => (

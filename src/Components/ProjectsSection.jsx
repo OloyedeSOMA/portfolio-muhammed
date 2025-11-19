@@ -44,7 +44,7 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <Element name="projects" className="container my-5">
+    <Element name="projects" id="projects" className="container my-5">
       <h3 className="fw-bold text-center mb-4">Projects</h3>
       <div className="row justify-content-center">
         {projects.map((project, i) => (
